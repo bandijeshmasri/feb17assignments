@@ -1,0 +1,10 @@
+[7:37 pm, 17/02/2022] Jesh: a=-1
+b=1
+sum=0
+n=int(input('enter a number:))
+for i in range(1,n+1):
+    c=a+b 
+    a=b 
+    b=c 
+    sum=sum+c 
+print(sum)
